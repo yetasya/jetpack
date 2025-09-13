@@ -15,6 +15,8 @@ const debug = require( './utils/debug' );
 const ifNotClosed = require( './utils/if-not-closed' );
 const ifNotFork = require( './utils/if-not-fork' );
 
+console.log('✅ DEBUG: repo-gardening is RUNNING! (from index.js)');
+
 const automations = [
 	{
 		event: 'pull_request_target',
